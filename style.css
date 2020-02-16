@@ -1,0 +1,327 @@
+/* GLOBAL */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top: 0;
+}
+header {
+    position: relative;
+}
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+nav {
+    
+    font-size: 18px;
+    font-weight: 600;
+    top: 20px;
+    
+}
+nav ul {
+    display: block;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(51,51,51);
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #606060;
+    transition-delay: 0.08s;
+}
+.current {
+    color: white;
+}
+.arrow_up .material-icons {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+    color: white;
+    transform: scale(1.7);
+} 
+.arrow_down .material-icons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    transform: scale(1.7);
+    bottom: 10px;;
+}
+.arrow_up_b .material-icons {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+    color: black;
+    transform: scale(1.7);
+} 
+.arrow_down_b .material-icons {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    transform: scale(1.7);
+    bottom: 10px;
+}
+.arrow_down .material-icons:hover, .arrow_up .material-icons:hover, .arrow_down_b .material-icons:hover, .arrow_up_b .material-icons:hover {
+    transform: scale(2);
+}
+.title {
+    margin: 0;
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 1500px) {
+    .title {
+        margin-top: 50px;
+    }
+}
+.title_model_3 {
+    margin-top: 10px;
+}
+
+.title h1{
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0;
+}
+.title h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(51,51,51);
+    margin: 0;
+}
+.title_home h2{
+    color: white;
+    font-size: 60px;
+    text-shadow: 1px 1px black;
+}
+
+.model_h2 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/* ----------------------------------- */
+
+/* BACKGROUNDS */
+
+.top_index {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('images/home_background_1980px.jpg') no-repeat 0;
+}
+
+.top_model_s {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("images/model_s_background_1980px.jpg") no-repeat 0 -100px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.top_model_3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('images/model_3_background_1980px.jpg') no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+}
+.top_model_x {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('images/model_x_background_1980px.jpg') no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    
+}
+.top_model_y {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('images/model_y_background_1980px.jpg') no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    
+}
+@media screen and (max-width: 1500px) {
+    .top_index {
+        background: url('images/home_background_1400px.jpg') no-repeat 0 -200px;
+    }
+    .top_model_s {
+        background: url('images/model_s_background_1400px.jpg') no-repeat 0 -50px;
+    }
+    .top_model_3 {
+        background: url('images/model_3_background_1366px.jpg') no-repeat 0 -25px;
+    }
+    .top_model_x {
+        background: url('images/model_x_background_1600px.jpg') no-repeat 0 -50px;
+    }
+    .top_model_y {
+        background: url('images/model_y_background_1400px.jpg') no-repeat 0 -100px;
+    }
+}
+
+/* ----------------------------------- */
+
+.prezentare_index {
+    color: white;
+    position: absolute;
+    left: 50.5%;
+    transform: translate(-50%);
+    top: 86%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.prezentare_index p {
+    text-shadow: 1px 1px black;
+}
+.prezentare_s p {
+    text-shadow: 1px 1px white;
+}
+.prezentare_3 p {
+    text-shadow: 1px 1px black;
+}
+.prezentare_s {
+    color: black;
+    position: absolute;
+    left: 50.5%;
+    transform: translate(-50%);
+    top: 86%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 23px;
+}
+.prezentare_3 {
+    color: white;
+    position: absolute;
+    left: 50.5%;
+    transform: translate(-50%);
+    top: 86%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 23px;
+}
+#bottom {
+    height: 100vh;
+}
+.bottom_index {
+    position: relative;
+    font-size: 22px;
+    width: 100%;
+    height: 100%;
+    background: url("images/black_background.jpg");
+    color: white;
+}
+.bottom_s {
+    position: relative;
+    font-size: 22px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+}
+.img_prezentare {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.img_prezentare_3 {
+    margin-top: 20px;
+}
+.img_prezentare_x {
+    margin-top: 20px;
+}
+.bottom_s h1 {
+    text-transform: uppercase;
+    width: 170px;
+    border: solid rgba(0, 0, 0, 0.534);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.model_prezentare {
+    color: #404040;
+    text-shadow: 1px 1px #202020;
+}
+.specs_s {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: white;
+}
+.container_specs {
+    width: 40%;
+    left: 55%;
+    top: 20%;
+    position: absolute;
+    font-size: 20px;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+td {
+   border-bottom: 1px solid white;
+   padding: 15px;
+}
+
+.last_row {
+    border-bottom: none;
+}
+#stats .td_l {
+    text-align: left;
+    padding-left: 0;
+}
+#stats .td_r {
+    text-align: right;
+    padding-right: 0;
+    font-weight: bold;
+}
+table {
+    border-spacing: 5px;
+}
+
+.specs_img {
+    position: absolute;
+    top: 5%;
+}
+.specs_img_x{
+    position: absolute;
+    
+}
+.specs_img_3 {
+    position: absolute;
+    width: 800px;
+    margin-top: 50px;
+}
